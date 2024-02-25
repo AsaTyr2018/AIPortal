@@ -1,0 +1,8 @@
+{
+    "sshs_model_hash": "ce6770c3ec6785xxxxxxf603a5ee61bd8e8ab1d4645081212f9b4b65f6a1bfa1",
+    "ss_network_dim": "Dynamic",
+    "ss_tag_frequency": "{\"example\": {\"example\": 12}}",
+    "ss_training_comment": "Dynamic resize with sv_fro: 0.96 from 128; ",
+    "ss_network_alpha": "Dynamic",
+    "sshs_legacy_hash": "4xxxxxx35"
+}

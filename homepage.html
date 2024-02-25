@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIPortal Guide</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #121212;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+    .guide {
+        max-width: 800px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+</style>
+</head>
+<body>
+
+<div class="guide">
+    <h2>How to Configure Your AIPortal</h2>
+    <p>To customize the AIPortal according to your preferences, you need to adjust the <code>config.ini</code> file. This file controls various aspects of the portal, such as the top menu items, their URLs, and the site title. Here's a quick guide:</p>
+    
+    <ol>
+        <li><strong>Site Title:</strong> To set the site title, find the <code>[titel]</code> section and modify the <code>titel_name</code> value. For example: <code>titel_name = "Your Site Title"</code>.</li>
+        <li><strong>Top Menu:</strong> Under the <code>[menu]</code> section, you can define each menu item. Specify the URL, name, and position for each item. For example: <br>
+        <code>menu_1_url = "./home.html"</code><br>
+        <code>menu_1_name = "Home"</code><br>
+        <code>menu_1_position = 1</code><br>
+        Repeat for each menu item you wish to add. If a menu item should have a dropdown, use a "#" for its URL and define sub-items similarly, with a unique identifier.</li>
+		<li><strong>Adding New Categories to the LoraStore:</strong> Within the <code>lorastore</code> directory, there's a folder named <code>Database-Blank</code>. You can copy or duplicate this folder to create a new category in the LoraStore menu. To include this new category in the menu, refer to the instructions above for adding a new menu item under the <code>[menu]</code> section of the <code>config.ini</code> file. This allows you to expand the content available on your AIPortal easily.</li>
+    </ol>
+
+    <p>Remember to save your changes and upload the updated <code>config.ini</code> file to your server. Refresh your AIPortal to see the changes in effect.</p>
+
+    <p>You can customize this message by editing the <code>homepage.html</code> file. Whether you want to modify the guide, update the content, or change the styling, simply adjust the HTML and CSS code according to your preferences. This allows you to tailor the AIPortal's homepage to better suit your needs and the message you wish to convey to your users.</p>
+
+    <p>If you encounter any issues or need further customization, feel free to open an issue on the AIPortal's GitHub repository at <a href="https://github.com/AsaTyr2018/AIPortal" target="_blank" style="color: #4E9CAF; text-decoration: none;">https://github.com/AsaTyr2018/AIPortal</a>. This helps us improve the portal and assist you with your queries.</p>
+</div>
+
+</body>
+</html>
