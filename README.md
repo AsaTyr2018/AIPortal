@@ -2,6 +2,8 @@
 
 Welcome to AIPortal, a comprehensive platform designed for efficient management and storage of various data and media files. Developed with precision and a user-friendly interface, AIPortal offers a suite of features tailored for professionals and hobbyists alike. Dive into the core functionalities that make AIPortal an indispensable tool for your projects.
 
+Demo Site availible: https://test.lenz-host.de/aiportal/
+
 ## Main Features
 
 ### Lora Store
